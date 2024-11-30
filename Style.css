@@ -1,0 +1,135 @@
+
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #bde6e6;
+    color: #161414;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #d4fafa;
+    color: #0f0101;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #0e0101;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+}
+
+/* Estilo das seções */
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Sobre seção */
+#sobre {
+    background-color: #fff;
+    color: #333;
+}
+
+#sobre h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Projetos seção */
+#projetos {
+    background-color: #c1d2eb;
+}
+
+#projetos h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.projeto {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projeto h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Formulário de Contato */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #d0eeec;
+    color: #72e7eb;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #41d7e2;
+}
+
+/* Rodapé */
+footer {
+    background-color: #c9dfe7;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .redes-sociais a {
+    color: #b1eaec;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer .redes-sociais a:hover {
+    color: #ddf7f7;
+}
+
